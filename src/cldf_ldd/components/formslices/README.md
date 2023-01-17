@@ -1,4 +1,6 @@
+# FormSlices
 
+[wordform](https://github.com/cldf/cldf/tree/master/components/forms)
 ## FormSlices: `FormSlices`
 
 Name/Property | Datatype | Cardinality | Description
