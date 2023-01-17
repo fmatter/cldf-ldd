@@ -1,6 +1,6 @@
 # Morphemes
 Morphemes are atomic form-meaning pairs, allowing for multiple forms (allomorphy) and multiple meanings (polysemy).
-## MorphemeTable: `MorphemeTable`
+## MorphemeTable: `morphemes.csv`
 
 Name/Property | Datatype | Cardinality | Description
  --- | --- | --- | --- 

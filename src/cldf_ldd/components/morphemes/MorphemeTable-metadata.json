@@ -1,5 +1,5 @@
 {
-    "url": "MorphemeTable",
+    "url": "morphemes.csv",
     "tableSchema": {
         "columns": [
             {

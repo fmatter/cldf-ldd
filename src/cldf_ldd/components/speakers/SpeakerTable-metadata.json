@@ -1,5 +1,5 @@
 {
-    "url": "SpeakerTable",
+    "url": "speakers.csv",
     "tableSchema": {
         "columns": [
             {
