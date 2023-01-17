@@ -13,6 +13,7 @@
             },
             {
                 "name": "Abbreviation",
+                "dc:extent": "singlevalued",
                 "required": true,
                 "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#name",
                 "datatype": "string"
