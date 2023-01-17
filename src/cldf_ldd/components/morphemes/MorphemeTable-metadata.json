@@ -22,12 +22,14 @@
             {
                 "name": "Name",
                 "required": true,
+                "dc:extent": "singlevalued",
                 "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#name",
                 "datatype": "string"
             },
             {
                 "name": "Comment",
                 "required": false,
+                "dc:extent": "singlevalued",
                 "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#comment",
                 "datatype": "string"
             },

@@ -10,6 +10,6 @@ Name/Property | Datatype | Cardinality | Description
 [ID](http://cldf.clld.org/v1.0/terms.rdf#id) | `string` | singlevalued | <div> <p>A unique identifier for a row in a table.</p> <p> To allow usage of identifiers as path components of URLs IDs must only contain alphanumeric characters, underscore and hyphen. </p> </div> 
 `Form_ID` | `string` | singlevalued | 
 `Morph_ID` | `string` | singlevalued | 
-`Index` | `string` | unspecified | Specifies the position of a morph in a form.
-`Morpheme_Meaning` | `string` | unspecified | 
-`Form_Meaning` | `string` | unspecified | 
+`Index` | `string` | singlevalued | Specifies the position of a morph in a form.
+`Morpheme_Meaning` | `string` | singlevalued | 
+`Form_Meaning` | `string` | singlevalued | 

@@ -27,6 +27,7 @@
                 "name": "Index",
                 "required": false,
                 "dc:description": "Specifies the position of a morph in a form.",
+                "dc:extent": "singlevalued",
                 "datatype": {
                     "base": "string",
                     "format": "\\d+(:\\d+)?"
@@ -34,11 +35,13 @@
             },
             {
                 "name": "Morpheme_Meaning",
+                "dc:extent": "singlevalued",
                 "required": false,
                 "datatype": "string"
             },
             {
                 "name": "Form_Meaning",
+                "dc:extent": "singlevalued",
                 "required": false,
                 "datatype": "string"
             }

@@ -24,6 +24,7 @@
                 "name": "Index",
                 "required": true,
                 "dc:description": "Specifies the position of a form in a sentence.",
+                "dc:extent": "singlevalued",
                 "datatype": {"base": "string", "format": "\\d+(:\\d+)?"}
             },
             {
@@ -31,6 +32,7 @@
                 "required": false,
                 "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#parameterReference",
                 "dc:description": "A reference to the meaning denoted by the form",
+                "dc:extent": "singlevalued",
                 "datatype": "string"
             }
         ]
