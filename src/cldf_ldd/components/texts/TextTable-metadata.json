@@ -15,19 +15,22 @@
                 "name": "Title",
                 "required": true,
                 "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#name",
-                "datatype": "string"
+                "datatype": "string",
+                "dc:extent": "singlevalued"
             },
             {
                 "name": "Description",
                 "required": false,
                 "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#description",
-                "datatype": "string"
+                "datatype": "string",
+                "dc:extent": "singlevalued"
             },
             {
                 "name": "Comment",
                 "required": false,
                 "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#comment",
-                "datatype": "string"
+                "datatype": "string",
+                "dc:extent": "singlevalued"
             },
             {
                 "name": "Source",
@@ -41,7 +44,8 @@
             {
                 "name": "Type",
                 "required": false,
-                "datatype": "string"
+                "datatype": "string",
+                "dc:extent": "singlevalued"
             },
             {
                 "name": "Metadata",
