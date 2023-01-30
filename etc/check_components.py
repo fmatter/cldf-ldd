@@ -18,6 +18,14 @@ def default_json(tablename):
                     "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
                     "datatype": {"base": "string", "format": "[a-zA-Z0-9_\\-]+"},
                 },
+   {
+                "name": "Language_ID",
+                "required": True,
+                "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#languageReference",
+                "dc:extent": "singlevalued",
+                "dc:description": "A reference to a language (or variety) the form belongs to",
+                "datatype": "string"
+            },
                 {
                     "name": "Name",
                     "dc:extent": "singlevalued",
@@ -28,10 +36,26 @@ def default_json(tablename):
                 {
                     "name": "Description",
                     "dc:extent": "singlevalued",
+                "dc:description": "A human-readable description",
                     "required": False,
                     "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#description",
                     "datatype": "string",
                 },
+            {
+                "name": "Comment",
+                "required": False,
+                "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#comment",
+                "datatype": "string"
+            },
+{
+                "name": "Source",
+                "required": false,
+                "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#source",
+                "datatype": {
+                    "base": "string"
+                },
+                "separator": ";"
+            }
             ]
         },
     }
