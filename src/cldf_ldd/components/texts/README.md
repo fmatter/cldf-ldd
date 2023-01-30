@@ -9,6 +9,7 @@ The properties below should mostly be self-explanatory.
 `Metadata` is a JSON field for things like tags, duration, etc.
 
 [^1]: Of course, they only become examples when they are used as such, but this misnomer is not significant.
+
 ## TextTable: `texts.csv`
 
 Name/Property | Datatype | Cardinality | Description

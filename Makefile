@@ -1,3 +1,6 @@
+files:
+	python3 etc/check_components.py
+	
 readme:
 	 python3 etc/create_readmes.py
 

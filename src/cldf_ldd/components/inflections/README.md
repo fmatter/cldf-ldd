@@ -1,5 +1,6 @@
 Inflections are conceptualized as linking a wordform with the following entities: a stem (of which it is an inflected form), an inflectional value (for which it is inflected), and optionally a `WordformPart` (which is the exponent).
 This mechanism allows for inflectional values to not be bound to a specific morph (e.g., values that are zero-marked or expressed with nonsegmental means), or to have multiple inflectional values expressed in a single morph.
+
 ## InflectionTable: `InflectionTable`
 
 Name/Property | Datatype | Cardinality | Description

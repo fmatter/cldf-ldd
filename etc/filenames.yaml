@@ -1,0 +1,15 @@
+wordforms: WordformTable
+stems: StemTable
+morphs: MorphTable
+inflections: InflectionTable
+inflectionalvalues: InflectionalvalueTable
+inflectionalcategories: InflectionalcategoryTable
+lexemes: LexemeTable
+morphemes: MorphemeTable
+forms: FormTable
+derivations: DerivationTable
+derivationalprocesses: DerivProcTable
+wordformparts: WordformParts
+formparts: FormParts
+stemparts: StemParts
+glosses: GlossTable

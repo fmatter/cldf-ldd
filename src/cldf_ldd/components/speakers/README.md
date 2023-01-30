@@ -1,6 +1,7 @@
 # Speakers
 
 Speakers should be able to be connected to text records (examples).
+
 ## SpeakerTable: `speakers.csv`
 
 Name/Property | Datatype | Cardinality | Description
