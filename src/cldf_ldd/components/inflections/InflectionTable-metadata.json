@@ -12,15 +12,31 @@
                 }
             },
             {
-                "name": "Form_ID",
+                "name": "Wordform_ID",
                 "required": true,
                 "dc:extent": "singlevalued",
+                "dc:description": "The wordform this inflection describes. References WordformTable (wordforms.csv)",
                 "datatype": "string"
             },
             {
-                "name": "Lexeme_ID",
+                "name": "Stem_ID",
                 "required": true,
                 "dc:extent": "singlevalued",
+                "dc:description": "The stem this wordform is an inflected form of. References StemTable (stems.csv)",
+                "datatype": "string"
+            },
+            {
+                "name": "Value_ID",
+                "required": true,
+                "dc:extent": "singlevalued",
+                "dc:description": "The inflectional value being expressed. References InflectionalvalueTable (inflectionalvalues.csv)",
+                "datatype": "string"
+            },
+            {
+                "name": "Wordformpart_ID",
+                "required": false,
+                "dc:extent": "singlevalued",
+                "dc:description": "The part of the wordform expressing this value. References Wordformparts (wordformparts.csv)",
                 "datatype": "string"
             }
         ]
