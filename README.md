@@ -7,11 +7,12 @@ CLDF schemata for language description and documentation.
 ![Versions](https://img.shields.io/pypi/pyversions/cldf-ldd)
 
 Details are found in [components](src/cldf_ldd/components).
-Every component can be used as follows when creating a CLDF dataset:img
+Every component can be used as follows when creating a CLDF dataset:
 
 ```python
 from cldf_ldd import StemTable
 ...
 args.writer.cldf.add_component(StemTable)
+...
 args.writer.objects["stems.csv"].append({...})
 ```
