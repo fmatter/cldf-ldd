@@ -28,25 +28,10 @@
                 "datatype": "string"
             },
             {
-                "name": "Parts",
-                "required": false,
-                "dc:description": "The form of the stem, segmented into morphs. Necessary for modeling morphologically complex stems.",
-                "dc:extent": "multivalued",
-                "datatype": "string",
-                "separator": " "
-            },
-            {
-                "name": "Comment",
-                "required": false,
-                "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#comment",
-                "dc:extent": "singlevalued",
-                "datatype": "string"
-            },
-            {
                 "name": "Lexeme_ID",
                 "required": false,
                 "dc:extent": "singlevalued",
-                "dc:description": "The lexeme this stem belongs to.",
+                "dc:description": "The lexeme this stem belongs to. References LexemeTable (lexemes.csv)",
                 "datatype": "string"
             },
             {
@@ -57,10 +42,25 @@
                 "datatype": "string"
             },
             {
+                "name": "Parts",
+                "required": false,
+                "dc:description": "The form of the stem, segmented into morphs. Necessary for modeling morphologically complex stems.",
+                "dc:extent": "multivalued",
+                "datatype": "string",
+                "separator": " "
+            },
+            {
                 "name": "Gloss_ID",
                 "required": false,
                 "dc:extent": "singlevalued",
-                "dc:description": "The gloss used to annotate this stem.",
+                "dc:description": "The gloss used to annotate this stem. References GlossTable (glosses.csv)",
+                "datatype": "string"
+            },
+            {
+                "name": "Comment",
+                "required": false,
+                "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#comment",
+                "dc:extent": "singlevalued",
                 "datatype": "string"
             },
             {
