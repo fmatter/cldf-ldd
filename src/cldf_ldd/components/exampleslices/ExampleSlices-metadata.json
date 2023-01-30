@@ -6,7 +6,10 @@
                 "name": "ID",
                 "required": false,
                 "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
-                "datatype": {"base": "string", "format": "[a-zA-Z0-9_\\-]+"}
+                "datatype": {
+                    "base": "string",
+                    "format": "[a-zA-Z0-9_\\-]+"
+                }
             },
             {
                 "name": "Form_ID",
@@ -25,7 +28,10 @@
                 "required": true,
                 "dc:description": "Specifies the position of a form in a sentence.",
                 "dc:extent": "singlevalued",
-                "datatype": {"base": "string", "format": "\\d+(:\\d+)?"}
+                "datatype": {
+                    "base": "string",
+                    "format": "\\d+(:\\d+)?"
+                }
             },
             {
                 "name": "Parameter_ID",

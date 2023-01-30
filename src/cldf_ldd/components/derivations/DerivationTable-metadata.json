@@ -18,35 +18,35 @@
                 "dc:description": "The derivational process involved. References DerivationalprocessTable (processs.csv)",
                 "datatype": "string"
             },
-{
-    "name": "Target_ID",
-    "required": true,
-    "dc:extent": "singlevalued",
-    "dc:description": "Blablabla. References StemTable (stems.csv)",
-    "datatype": "string"
-},
-{
-    "name": "Source_ID",
-    "required": false,
-    "dc:extent": "singlevalued",
-    "dc:description": "The stem to which the derivational process applies. References StemTable (stems.csv)",
-    "datatype": "string"
-},
-{
-    "name": "Root_ID",
-    "required": false,
-    "dc:extent": "singlevalued",
-    "dc:description": "The root to which the derivational process applies. References MorphTable (morphs.csv)",
-    "datatype": "string"
-},
-{
-    "name": "Stempart_IDs",
-    "required": true,
-    "dc:extent": "multivalued",
-"separator": ",",
-    "dc:description": "Specifies one or multiple morphs in the stem marking the derivation. References Stemparts (stemparts.csv)",
-    "datatype": "string"
-}
+            {
+                "name": "Target_ID",
+                "required": true,
+                "dc:extent": "singlevalued",
+                "dc:description": "Blablabla. References StemTable (stems.csv)",
+                "datatype": "string"
+            },
+            {
+                "name": "Source_ID",
+                "required": false,
+                "dc:extent": "singlevalued",
+                "dc:description": "The stem to which the derivational process applies. References StemTable (stems.csv)",
+                "datatype": "string"
+            },
+            {
+                "name": "Root_ID",
+                "required": false,
+                "dc:extent": "singlevalued",
+                "dc:description": "The root to which the derivational process applies. References MorphTable (morphs.csv)",
+                "datatype": "string"
+            },
+            {
+                "name": "Stempart_IDs",
+                "required": true,
+                "dc:extent": "multivalued",
+                "separator": ",",
+                "dc:description": "Specifies one or multiple morphs in the stem marking the derivation. References Stemparts (stemparts.csv)",
+                "datatype": "string"
+            }
         ]
     }
 }
