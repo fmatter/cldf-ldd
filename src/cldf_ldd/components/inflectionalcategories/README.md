@@ -1,5 +1,5 @@
 # Inflectionalcategories
-
+[Inflectional values] know which inflectional category they belong to.
 
 ## InflectionalcategoryTable: `inflectionalcategories.csv`
 

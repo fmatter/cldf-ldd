@@ -19,10 +19,17 @@
                 "datatype": "string"
             },
             {
-                "name": "Description",
+                "name": "Category_ID",
+                "required": true,
                 "dc:extent": "singlevalued",
-                "required": false,
-                "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#description",
+                "dc:description": "The inflectional category the value belongs to. References InflCatTable (inflectionalcategories.csv)",
+                "datatype": "string"
+            },
+            {
+                "name": "Gloss_ID",
+                "required": true,
+                "dc:extent": "singlevalued",
+                "dc:description": "The gloss for the inflectional value. References GlossTable (glosses.csv)",
                 "datatype": "string"
             }
         ]

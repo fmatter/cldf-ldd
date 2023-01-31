@@ -1,4 +1,5 @@
-Inflections are conceptualized as linking a wordform with the following entities: a stem (of which it is an inflected form), an inflectional value (for which it is inflected), and optionally a `WordformPart` (which is the exponent).
+Inflection consists of morphological processes with which wordforms express [grammatical categories](../inflectionalcategories) like person, tense, or gender.
+Inflections are conceptualized as linking a [wordform](../wordforms) with the following entities: a [stem](../stems) (of which it is an inflected form), an [inflectional value](inflectionalvalues) (for which it is inflected), and optionally a [`WordformPart`](../wordformparts) (which is the exponent of the inflectional value).
 This mechanism allows for inflectional values to not be bound to a specific morph (e.g., values that are zero-marked or expressed with nonsegmental means), or to have multiple inflectional values expressed in a single morph.
 
 ## InflectionTable: `InflectionTable`

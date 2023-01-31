@@ -2,8 +2,8 @@ wordforms: WordformTable
 stems: StemTable
 morphs: MorphTable
 inflections: InflectionTable
-inflectionalvalues: InflectionalvalueTable
-inflectionalcategories: InflectionalcategoryTable
+inflectionalvalues: InflValTable
+inflectionalcategories: InflCatTable
 lexemes: LexemeTable
 morphemes: MorphemeTable
 forms: FormTable
