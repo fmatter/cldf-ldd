@@ -28,8 +28,16 @@
                 "datatype": "string"
             },
             {
+                "name": "Description",
+                "dc:extent": "singlevalued",
+                "dc:description": "A human-readable description",
+                "required": false,
+                "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#description",
+                "datatype": "string"
+            },
+            {
                 "name": "Parameter_ID",
-                "required": true,
+                "required": false,
                 "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#parameterReference",
                 "dc:description": "A reference to the meaning denoted by the form",
                 "datatype": "string"
@@ -37,24 +45,16 @@
             {
                 "name": "Parts",
                 "required": false,
-                "dc:description": "The form of the stem, segmented into morphs. Necessary for modeling morphologically complex stems.",
+                "dc:description": "The form of the form, segmented into morphs.",
                 "dc:extent": "multivalued",
                 "datatype": "string",
                 "separator": " "
             },
             {
                 "name": "Stem_ID",
-                "required": false,
+                "required": true,
                 "dc:extent": "singlevalued",
                 "dc:description": "The stem of which this wordform is an inflected form. References StemTable (stems.csv)",
-                "datatype": "string"
-            },
-            {
-                "name": "Description",
-                "dc:extent": "singlevalued",
-                "required": false,
-                "dc:description": "A free translation of the wordform.",
-                "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#description",
                 "datatype": "string"
             },
             {
@@ -62,6 +62,15 @@
                 "required": false,
                 "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#comment",
                 "datatype": "string"
+            },
+            {
+                "name": "Source",
+                "required": false,
+                "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#source",
+                "datatype": {
+                    "base": "string"
+                },
+                "separator": ";"
             }
         ]
     }
