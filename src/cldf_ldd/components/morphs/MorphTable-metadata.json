@@ -36,13 +36,6 @@
                 "separator": " "
             },
             {
-                "name": "Comment",
-                "required": false,
-                "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#comment",
-                "dc:extent": "singlevalued",
-                "datatype": "string"
-            },
-            {
                 "name": "Morpheme_ID",
                 "required": false,
                 "dc:extent": "singlevalued",
@@ -54,6 +47,13 @@
                 "required": false,
                 "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#parameterReference",
                 "dc:description": "A reference to the meaning denoted by the form.",
+                "datatype": "string"
+            },
+            {
+                "name": "Comment",
+                "required": false,
+                "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#comment",
+                "dc:extent": "singlevalued",
                 "datatype": "string"
             },
             {
