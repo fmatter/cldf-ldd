@@ -1,7 +1,7 @@
 # Inflectionalcategories
-[Inflectional values] know which inflectional category they belong to.
+[Inflectional values](../inflectionalvalues) know which inflectional category they belong to.
 
-## InflectionalcategoryTable: `inflectionalcategories.csv`
+## InflTable: `inflectionalcategories.csv`
 
 Name/Property | Datatype | Cardinality | Description
  --- | --- | --- | --- 

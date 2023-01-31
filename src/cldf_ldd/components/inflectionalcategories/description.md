@@ -1,2 +1,2 @@
 # Inflectionalcategories
-[Inflectional values] know which inflectional category they belong to.
+[Inflectional values](../inflectionalvalues) know which inflectional category they belong to.

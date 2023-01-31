@@ -1,7 +1,7 @@
 # Inflectionalvalues
 Inflectional values belong to a [category](../inflectionalcategories) and have a [gloss](../glosses).
 
-## InflectionalvalueTable: `inflectionalvalues.csv`
+## InflValTable: `inflectionalvalues.csv`
 
 Name/Property | Datatype | Cardinality | Description
  --- | --- | --- | --- 
