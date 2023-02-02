@@ -11,5 +11,7 @@ derivations: DerivationTable
 derivationalprocesses: DerivProcTable
 wordformparts: WordformParts
 formparts: FormParts
+formstems: FormStems
 stemparts: StemParts
 glosses: GlossTable
+partsofspeech: POSTable

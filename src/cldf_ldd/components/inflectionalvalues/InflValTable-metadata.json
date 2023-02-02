@@ -1,5 +1,5 @@
 {
-    "url": "POSTable",
+    "url": "inflectionalvalues.csv",
     "tableSchema": {
         "columns": [
             {
@@ -13,14 +13,23 @@
             },
             {
                 "name": "Name",
+                "dc:extent": "singlevalued",
                 "required": true,
                 "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#name",
                 "datatype": "string"
             },
             {
-                "name": "Description",
-                "required": false,
-                "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#description",
+                "name": "Category_ID",
+                "required": true,
+                "dc:extent": "singlevalued",
+                "dc:description": "The inflectional category the value belongs to. References InflCatTable (inflectionalcategories.csv)",
+                "datatype": "string"
+            },
+            {
+                "name": "Gloss_ID",
+                "required": true,
+                "dc:extent": "singlevalued",
+                "dc:description": "The gloss for the inflectional value. References GlossTable (glosses.csv)",
                 "datatype": "string"
             }
         ]
