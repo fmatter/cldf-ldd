@@ -1,5 +1,5 @@
 {
-    "url": "formstems.csv",
+    "url": "wordformstems.csv",
     "tableSchema": {
         "columns": [
             {
