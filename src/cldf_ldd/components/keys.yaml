@@ -78,3 +78,31 @@
   - Wordform_ID
   - wordforms.csv
   - ID
+- - exampleparts.csv
+  - Example_ID
+  - ExampleTable
+  - ID
+- - exampleparts.csv
+  - Parameter_ID
+  - ParameterTable
+  - ID
+- - morphs.csv
+  - Parameter_ID
+  - ParameterTable
+  - ID
+- - morphemes.csv
+  - Parameter_ID
+  - ParameterTable
+  - ID
+- - lexemes.csv
+  - Parameter_ID
+  - ParameterTable
+  - ID
+- - wordforms.csv
+  - Parameter_ID
+  - ParameterTable
+  - ID
+- - stems.csv
+  - Parameter_ID
+  - ParameterTable
+  - ID

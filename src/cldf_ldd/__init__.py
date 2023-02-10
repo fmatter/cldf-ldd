@@ -38,4 +38,5 @@ def add_keys(ds):
     ]  # a list of tables in the dataset
     for src, key1, goal, key2 in keys:
         if src in cldf_tables and goal in cldf_tables:
+            print("adding:", src, key1, goal)
             ds.add_foreign_key(src, key1, goal, key2)
