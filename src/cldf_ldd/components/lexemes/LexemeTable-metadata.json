@@ -54,6 +54,11 @@
                 "datatype": "string"
             },
             {
+                "name": "Paradigm_View",
+                "required": false,
+                "datatype": "string"
+            },
+            {
                 "name": "Source",
                 "required": false,
                 "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#source",

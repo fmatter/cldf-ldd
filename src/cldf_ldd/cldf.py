@@ -25,6 +25,8 @@ __all__ = [
     "StemParts",
     "GlossTable",
     "POSTable",
+    "TextTable",
+    "ExampleParts",
 ]
 
 
@@ -53,3 +55,5 @@ FormStems = jsonlib.load(cldf_path / "formstems/FormStems-metadata.json")
 StemParts = jsonlib.load(cldf_path / "stemparts/StemParts-metadata.json")
 GlossTable = jsonlib.load(cldf_path / "glosses/GlossTable-metadata.json")
 POSTable = jsonlib.load(cldf_path / "partsofspeech/POSTable-metadata.json")
+TextTable = jsonlib.load(cldf_path / "texts/TextTable-metadata.json")
+ExampleParts = jsonlib.load(cldf_path / "exampleparts/ExampleParts-metadata.json")

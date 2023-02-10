@@ -37,15 +37,14 @@
             {
                 "name": "Parameter_ID",
                 "required": true,
-                "dc:extent": "singlevalued",
                 "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#parameterReference",
                 "dc:description": "A reference to the meaning denoted by the stem",
                 "datatype": "string"
             },
             {
-                "name": "Parts",
+                "name": "Morpho_Segments",
                 "required": false,
-                "dc:description": "The form of the stem, segmented into morphs. Necessary for modeling morphologically complex stems.",
+                "dc:description": "A representation of the morphologically segmented stem.",
                 "dc:extent": "multivalued",
                 "datatype": "string",
                 "separator": " "

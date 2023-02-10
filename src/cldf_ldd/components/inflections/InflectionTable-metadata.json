@@ -1,5 +1,5 @@
 {
-    "url": "InflectionTable",
+    "url": "inflections.csv",
     "tableSchema": {
         "columns": [
             {
@@ -12,10 +12,10 @@
                 }
             },
             {
-                "name": "Wordform_ID",
-                "required": true,
+                "name": "Form_ID",
+                "required": false,
                 "dc:extent": "singlevalued",
-                "dc:description": "The wordform this inflection describes. References WordformTable (wordforms.csv)",
+                "dc:description": "The form this inflection describes. References FormTable (forms.csv)",
                 "datatype": "string"
             },
             {
@@ -35,7 +35,8 @@
             {
                 "name": "Wordformpart_ID",
                 "required": false,
-                "dc:extent": "singlevalued",
+                "dc:extent": "mutlivalued",
+                "separator": ",",
                 "dc:description": "The part of the wordform expressing this value. References Wordformparts (wordformparts.csv)",
                 "datatype": "string"
             }

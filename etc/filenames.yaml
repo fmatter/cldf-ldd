@@ -15,3 +15,5 @@ formstems: FormStems
 stemparts: StemParts
 glosses: GlossTable
 partsofspeech: POSTable
+texts: TextTable
+exampleparts: ExampleParts

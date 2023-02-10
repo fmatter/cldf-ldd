@@ -20,14 +20,14 @@
             },
             {
                 "name": "Morph_ID",
-                "required": true,
+                "required": false,
                 "dc:extent": "singlevalued",
                 "dc:description": "The involved morph. References MorphTable (morphs.csv)",
                 "datatype": "string"
             },
             {
                 "name": "Index",
-                "required": true,
+                "required": false,
                 "dc:description": "Specifies the position of a morph in a wordform.",
                 "dc:extent": "singlevalued",
                 "datatype": {
@@ -38,7 +38,8 @@
             {
                 "name": "Gloss_ID",
                 "required": true,
-                "dc:extent": "singlevalued",
+                "dc:extent": "multivalued",
+                "separator": ",",
                 "dc:description": "The gloss the morph has in the wordform. References GlossTable (glosses.csv)",
                 "datatype": "string"
             }
