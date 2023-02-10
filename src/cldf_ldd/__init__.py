@@ -1,12 +1,26 @@
 """Top-level package for cldf-ldd."""
-from cldf_ldd.cldf import *
 import functools
+import logging
 import re
+import colorlog
+from cldf_ldd.cldf import *
+
 
 try:
     from importlib.resources import files  # pragma: no cover
 except ImportError:  # pragma: no cover
     from importlib_resources import files  # pragma: no cover
+
+
+handler = colorlog.StreamHandler(None)
+handler.setFormatter(
+    colorlog.ColoredFormatter("%(log_color)s%(levelname)-7s%(reset)s %(message)s")
+)
+log = logging.getLogger(__name__)
+log.setLevel(logging.INFO)
+log.propagate = True
+log.addHandler(handler)
+
 
 __author__ = "Florian Matter"
 __email__ = "fmatter@mailbox.org"
@@ -37,5 +51,10 @@ def add_keys(ds):
         str(x.url) for x in ds.tables
     ]  # a list of tables in the dataset
     for src, key1, goal, key2 in keys:
-        if src in cldf_tables and goal in cldf_tables:
-            ds.add_foreign_key(src, key1, goal, key2)
+        if src in cldf_tables:
+            if goal in cldf_tables:
+                ds.add_foreign_key(src, key1, goal, key2)
+            else:
+                log.warning(
+                    f"Table {src} has the foreign key {key1}, but there is no table {goal}."
+                )

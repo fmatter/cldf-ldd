@@ -1,5 +1,6 @@
-from clldutils import jsonlib
 import yaml
+from clldutils import jsonlib
+
 
 try:
     from importlib.resources import files  # pragma: no cover
