@@ -1,6 +1,5 @@
-import yaml
 from clldutils import jsonlib
-
+import yaml
 
 try:
     from importlib.resources import files  # pragma: no cover
@@ -9,6 +8,7 @@ except ImportError:  # pragma: no cover
 
 __all__ = [
     "keys",
+    "columns",
     "WordformTable",
     "StemTable",
     "MorphTable",
@@ -34,6 +34,8 @@ __all__ = [
 cldf_path = files("cldf_ldd") / "components"
 
 keys = yaml.load(open(cldf_path / "keys.yaml", "r"), Loader=yaml.SafeLoader)
+
+columns = jsonlib.load(cldf_path / "columns.json")
 
 WordformTable = jsonlib.load(cldf_path / "wordforms/WordformTable-metadata.json")
 StemTable = jsonlib.load(cldf_path / "stems/StemTable-metadata.json")

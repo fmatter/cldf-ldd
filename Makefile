@@ -1,3 +1,7 @@
+code:
+	python3 var/gen_code.py
+	black src
+	
 files:
 	python3 etc/check_components.py
 	

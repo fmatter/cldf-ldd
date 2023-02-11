@@ -1,0 +1,6 @@
+{"ExampleTable": [            {
+                "name": "Text_ID",
+                "required": true,
+                "dc:description": "The larger discourse context in which this record was uttered",
+                "datatype": "string"
+            }]}

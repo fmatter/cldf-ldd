@@ -4,7 +4,7 @@ import logging
 import re
 import colorlog
 from cldf_ldd.cldf import *
-
+import json
 
 try:
     from importlib.resources import files  # pragma: no cover
@@ -40,6 +40,15 @@ validators = [
         functools.partial(valid_parts, "Segments"),
     ),
 ]
+
+
+def add_columns(ds):
+    for table in list(ds.components.keys()) + [str(x.url) for x in ds.tables]:
+        if table in columns:
+            ds.add_columns(
+                    table,
+                    *columns[table]
+                )
 
 
 def validate(ds):
