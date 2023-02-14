@@ -45,10 +45,7 @@ validators = [
 def add_columns(ds):
     for table in list(ds.components.keys()) + [str(x.url) for x in ds.tables]:
         if table in columns:
-            ds.add_columns(
-                    table,
-                    *columns[table]
-                )
+            ds.add_columns(table, *columns[table])
 
 
 def validate(ds):
