@@ -28,6 +28,14 @@
                 "datatype": "string"
             },
             {
+                "name": "Description",
+                "dc:extent": "singlevalued",
+                "dc:description": "A human-readable description",
+                "required": false,
+                "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#description",
+                "datatype": "string"
+            },
+            {
                 "name": "Segments",
                 "required": false,
                 "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#segments",
