@@ -110,3 +110,7 @@
   - Gloss_ID
   - glosses.csv
   - ID
+- - examples.csv
+  - Text_ID
+  - texts.csv
+  - ID
