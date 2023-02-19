@@ -51,9 +51,10 @@
             },
             {
                 "name": "Gloss_ID",
-                "required": false,
-                "dc:extent": "singlevalued",
-                "dc:description": "The gloss used to annotate this stem. References GlossTable (glosses.csv)",
+                "required": true,
+                "dc:extent": "multivalued",
+                "separator": ",",
+                "dc:description": "The gloss the morph has in the wordform. References GlossTable (glosses.csv)",
                 "datatype": "string"
             },
             {
