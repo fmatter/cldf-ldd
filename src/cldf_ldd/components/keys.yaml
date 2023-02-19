@@ -106,3 +106,7 @@
   - Parameter_ID
   - ParameterTable
   - ID
+- - stems.csv
+  - Gloss_ID
+  - glosses.csv
+  - ID
