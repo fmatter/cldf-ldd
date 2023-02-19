@@ -38,16 +38,9 @@
             {
                 "name": "Gloss_ID",
                 "required": true,
-                "dc:extent": "singlevalued",
-                "dc:description": "The gloss the morph has in the stem. References GlossTable (glosses.csv)",
-                "datatype": "string"
-            },
-            {
-                "name": "Gloss_ID",
-                "required": true,
                 "dc:extent": "multivalued",
                 "separator": ",",
-                "dc:description": "The gloss the morph has in the wordform. References GlossTable (glosses.csv)",
+                "dc:description": "The gloss the morph has in the stem. References GlossTable (glosses.csv)",
                 "datatype": "string"
             }
         ]
