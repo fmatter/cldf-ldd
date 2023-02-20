@@ -10,9 +10,9 @@ Details are found in [components](src/cldf_ldd/components).
 Every component can be used as follows when creating a CLDF dataset:
 
 ```python
-from cldf_ldd import StemTable
+from cldf_ldd.components import StemTable
 ...
 args.writer.cldf.add_component(StemTable)
 ...
-args.writer.objects["stems.csv"].append({...})
+args.writer.objects[StemTable["url"]].append({...})
 ```
