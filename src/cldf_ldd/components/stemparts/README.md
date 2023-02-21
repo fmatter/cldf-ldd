@@ -9,4 +9,4 @@ Name/Property | Datatype | Cardinality | Description
 `Stem_ID` | `string` | singlevalued | The involved stem. References StemTable (stems.csv)
 `Morph_ID` | `string` | singlevalued | The involved morph. References MorphTable (morphs.csv)
 `Index` | `string` | singlevalued | Specifies the position of a morph in a stem.
-`Gloss_ID` | `string` | singlevalued | The gloss the morph has in the stem. References GlossTable (glosses.csv)
+`Gloss_ID` | list of `string` (separated by `,`) | multivalued | The gloss the morph has in the stem. References GlossTable (glosses.csv)

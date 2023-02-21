@@ -35,7 +35,7 @@
             {
                 "name": "Wordformpart_ID",
                 "required": false,
-                "dc:extent": "mutlivalued",
+                "dc:extent": "multivalued",
                 "separator": ",",
                 "dc:description": "The part of the wordform expressing this value. References Wordformparts (wordformparts.csv)",
                 "datatype": "string"

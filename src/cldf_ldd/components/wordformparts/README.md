@@ -9,4 +9,4 @@ Name/Property | Datatype | Cardinality | Description
 `Wordform_ID` | `string` | singlevalued | The involved wordform. References WordformTable (wordforms.csv)
 `Morph_ID` | `string` | singlevalued | The involved morph. References MorphTable (morphs.csv)
 `Index` | `string` | singlevalued | Specifies the position of a morph in a wordform.
-`Gloss_ID` | `string` | singlevalued | The gloss the morph has in the wordform. References GlossTable (glosses.csv)
+`Gloss_ID` | list of `string` (separated by `,`) | multivalued | The gloss the morph has in the wordform. References GlossTable (glosses.csv)

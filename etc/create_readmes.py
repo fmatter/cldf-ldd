@@ -20,6 +20,7 @@ def table2markdown(table, name):
     res.append(" --- | --- | --- | --- ")
     TERMS = Terms(Path("../cldf/cldf") / "terms.rdf")
     for col in table.tableSchema.columns:
+        print(col)
         res.append(colrow(col, table.tableSchema.primaryKey, TERMS))
     return "\n".join(res)
 

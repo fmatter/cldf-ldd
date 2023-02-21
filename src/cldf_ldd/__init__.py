@@ -1,10 +1,9 @@
 """Top-level package for cldf-ldd."""
 import functools
 import logging
-import re
 import colorlog
-from cldf_ldd.cldf import *
-import json
+from cldf_ldd.cldf import columns, keys
+from cldf_ldd.components import *
 
 try:
     from importlib.resources import files  # pragma: no cover
