@@ -8,6 +8,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [0.0.2] - 2023-02-19
 
+### Changed
+* wordformparts don't need to have a gloss (infixation)
+
 ### Fixed
 * include data in MANIFEST.in
 
