@@ -48,11 +48,11 @@
                 "datatype": "string"
             },
             {
-        "name": "Comment",
-        "required": false,
-        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#comment",
-        "datatype": "string"
-    }
+                "name": "Comment",
+                "required": false,
+                "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#comment",
+                "datatype": "string"
+            }
         ]
     }
 }

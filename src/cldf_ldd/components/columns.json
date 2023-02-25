@@ -12,5 +12,16 @@
             "dc:description": "The positions of this record in the text.",
             "datatype": "integer"
         }
+    ],
+    "FormTable": [
+        {
+            "name": "Morpho_Segments",
+            "required": false,
+            "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#segments",
+            "dc:description": "The form of the XXX, segmented into morphs.",
+            "dc:extent": "multivalued",
+            "datatype": "string",
+            "separator": " "
+        }
     ]
 }
