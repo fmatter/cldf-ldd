@@ -6,7 +6,6 @@ inflectionalvalues: InflValTable
 inflectionalcategories: InflCatTable
 lexemes: LexemeTable
 morphemes: MorphemeTable
-forms: FormTable
 derivations: DerivationTable
 derivationalprocesses: DerivProcTable
 wordformparts: WordformParts
