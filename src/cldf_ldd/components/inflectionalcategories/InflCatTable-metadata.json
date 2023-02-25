@@ -26,10 +26,11 @@
                 "datatype": "string"
             },
             {
-                "name": "Order",
-                "dc:extent": "singlevalued",
+                "name": "Value_Order",
+                "dc:extent": "multivalued",
                 "required": false,
-                "datatype": "string"
+                "datatype": "string",
+                "separator": ","
             }
         ]
     }

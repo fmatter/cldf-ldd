@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ## [0.0.2] - 2023-02-19
+* `Order` for inflectional categories is now a list and called `Value_Order`
 
 ### Changed
 * wordformparts don't need to have a gloss (infixation)
