@@ -114,3 +114,7 @@
   - Text_ID
   - texts.csv
   - ID
+- - stems.csv
+  - Lexeme_ID
+  - lexemes.csv
+  - ID
