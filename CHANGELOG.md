@@ -7,12 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ## [0.0.2] - 2023-02-19
-* `Order` for inflectional categories is now a list and called `Value_Order`
-* for multi-word forms with morph slices, the native `FormTable` is now used
-* derivational processes have a language
 
 ### Changed
 * wordformparts don't need to have a gloss (infixation)
+* `Order` for inflectional categories is now a list and called `Value_Order`
+* for multi-word forms with morph slices, the native `FormTable` is now used
+* derivational processes have a language
+* adding column `Morpho_Segments` to CLDF-native `FormTable`
+* foreign `Lexeme_ID` key for `StemTable`
+
+### Removed
+* old `FormTable`
 
 ### Fixed
 * include data in MANIFEST.in
