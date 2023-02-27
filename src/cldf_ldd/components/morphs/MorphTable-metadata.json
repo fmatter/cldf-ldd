@@ -30,7 +30,7 @@
             {
                 "name": "Description",
                 "dc:extent": "singlevalued",
-                "dc:description": "A human-readable description",
+                "dc:description": "A human-readable description.",
                 "required": false,
                 "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#description",
                 "datatype": "string"
@@ -54,7 +54,7 @@
                 "name": "Parameter_ID",
                 "required": false,
                 "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#parameterReference",
-                "dc:description": "A reference to the meaning denoted by the form.",
+                "dc:description": "A reference to the meaning denoted by the morph.",
                 "datatype": "string"
             },
             {

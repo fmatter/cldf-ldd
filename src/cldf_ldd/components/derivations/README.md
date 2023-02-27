@@ -1,6 +1,6 @@
 # Derivations
 A derivation relates a [stem](../stems) or a [root](../morphs) to a derived stem.
-Optionally, it can reference a morphological part of the derived stem.
+Optionally, it can reference one or multiple morph(s) contained in the derived stem.
 
 
 ## DerivationTable: `derivations.csv`

@@ -16,7 +16,7 @@
                 "required": true,
                 "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#languageReference",
                 "dc:extent": "singlevalued",
-                "dc:description": "A reference to a language (or variety) the morpheme belongs to",
+                "dc:description": "A reference to a language (or variety) the morpheme belongs to.",
                 "datatype": "string"
             },
             {
@@ -29,7 +29,7 @@
             {
                 "name": "Description",
                 "dc:extent": "singlevalued",
-                "dc:description": "A human-readable description",
+                "dc:description": "A human-readable description.",
                 "required": false,
                 "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#description",
                 "datatype": "string"

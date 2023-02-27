@@ -55,8 +55,9 @@
             },
             {
                 "name": "Paradigm_View",
+                "dc:description": "A dict with 'x' and 'y' keys containing lists of derivational category IDs.",
                 "required": false,
-                "datatype": "string"
+                "datatype": "json"
             },
             {
                 "name": "Source",

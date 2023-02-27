@@ -1,2 +1,2 @@
 # Morphemes
-Morphemes are atomic form-meaning pairs, allowing for multiple forms (allomorphy) and multiple meanings (polysemy).
+Morphemes are abstract entities that contain one or multiple [morphs](../morphs).

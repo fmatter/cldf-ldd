@@ -30,7 +30,8 @@
                 "dc:extent": "multivalued",
                 "required": false,
                 "datatype": "string",
-                "separator": ","
+                "separator": ",",
+                "dc:description": "The order in which the values of this category should be ordered (contains inflectionalvalue IDs)."
             }
         ]
     }

@@ -1,5 +1,5 @@
 # Inflectionalvalues
-Inflectional values belong to a [category](../inflectionalcategories) and have a [gloss](../glosses).
+Inflectional values belong to an inflectional [category](../inflectionalcategories) and have a [gloss](../glosses).
 
 ## InflValTable: `inflectionalvalues.csv`
 

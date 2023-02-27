@@ -1,4 +1,4 @@
-# Formstems
+# Wordformstems
 
 
 ## FormStems: `wordformstems.csv`
