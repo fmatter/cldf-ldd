@@ -1,5 +1,5 @@
 # Inflectionalcategories
-[Inflectional values](../inflectionalvalues) know which inflectional category they belong to.
+An inflectional category like *tense* has multiple [inflectional values](../inflectionalvalues) like *past* or *present*.
 
 ## InflCatTable: `inflectionalcategories.csv`
 
