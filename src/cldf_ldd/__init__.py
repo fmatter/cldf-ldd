@@ -60,6 +60,6 @@ def add_keys(ds):
             if goal in cldf_tables:
                 ds.add_foreign_key(src, key1, goal, key2)
             else:
-                log.warning(
+                log.debug(
                     f"Table {src} has the foreign key {key1}, but there is no table {goal}."
                 )

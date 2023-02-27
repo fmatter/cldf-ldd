@@ -14,6 +14,7 @@ for source, col1, target, col2 in keys:
     key_dict.setdefault(source, {})
     key_dict[source][col1] = target
 
+
 def table2markdown(table, name):
     res = []
     res.append(
