@@ -12,7 +12,7 @@ Name/Property | Datatype | Cardinality | Description
 [Language_ID](http://cldf.clld.org/v1.0/terms.rdf#languageReference) | `string` | singlevalued | A reference to a language (or variety) the stem belongs to<br>References LanguageTable
 [Name](http://cldf.clld.org/v1.0/terms.rdf#name) | `string` | singlevalued | <div> <p>A title, name or label for an entity.</p> </div> 
 `Lexeme_ID` | `string` | singlevalued | The lexeme this stem belongs to.<br>References lexemes.csv.
-[Parameter_ID](http://cldf.clld.org/v1.0/terms.rdf#parameterReference) | `string` | unspecified | A reference to the meaning denoted by the stem<br>References ParameterTable<br>References ParameterTable.
+[Parameter_ID](http://cldf.clld.org/v1.0/terms.rdf#parameterReference) | `string` | unspecified | A reference to the meaning denoted by the stem<br>References ParameterTable
 `Morpho_Segments` | list of `string` (separated by ` `) | multivalued | A representation of the morphologically segmented stem.
 `Gloss_ID` | list of `string` (separated by `,`) | multivalued | The gloss the morph has in the wordform.<br>References glosses.csv.
 [Comment](http://cldf.clld.org/v1.0/terms.rdf#comment) | `string` | singlevalued | <div> <p> A human-readable comment on a resource, providing additional context. </p> </div> 
