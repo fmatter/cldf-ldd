@@ -7,11 +7,7 @@ This mechanism allows for inflectional values to not be bound to a specific morp
 Name/Property | Datatype | Cardinality | Description
  --- | --- | --- | --- 
 [ID](http://cldf.clld.org/v1.0/terms.rdf#id) | `string` | singlevalued | <div> <p>A unique identifier for a row in a table.</p> <p> To allow usage of identifiers as path components of URLs IDs must only contain alphanumeric characters, underscore and hyphen. </p> </div> 
-`Form_ID` | `string` | singlevalued | The form this inflection describes.
-References forms.csv.
-`Stem_ID` | `string` | singlevalued | The stem this wordform is an inflected form of.
-References stems.csv.
-`Value_ID` | `string` | singlevalued | The inflectional value being expressed.
-References inflectionalvalues.csv.
-`Wordformpart_ID` | list of `string` (separated by `,`) | multivalued | The part of the wordform expressing this value.
-References wordformparts.csv.
+`Form_ID` | `string` | singlevalued | The form this inflection describes.<br>References forms.csv.
+`Stem_ID` | `string` | singlevalued | The stem this wordform is an inflected form of.<br>References stems.csv.
+`Value_ID` | `string` | singlevalued | The inflectional value being expressed.<br>References inflectionalvalues.csv.
+`Wordformpart_ID` | list of `string` (separated by `,`) | multivalued | The part of the wordform expressing this value.<br>References wordformparts.csv.

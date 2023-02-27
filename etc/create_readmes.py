@@ -32,7 +32,7 @@ def table2markdown(table, name):
         row = colrow(col, table.tableSchema.primaryKey, terms)
         if table_url in key_dict and str(col) in key_dict[table_url]:
             target = key_dict[table_url][str(col)]
-            row += f"\nReferences {target}."
+            row += f"<br>References {target}."
         res.append(row)
     return "\n".join(res)
 
