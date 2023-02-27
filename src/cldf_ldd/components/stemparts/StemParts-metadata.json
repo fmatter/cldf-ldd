@@ -15,14 +15,14 @@
                 "name": "Stem_ID",
                 "required": true,
                 "dc:extent": "singlevalued",
-                "dc:description": "The involved stem. References StemTable (stems.csv)",
+                "dc:description": "The involved stem.",
                 "datatype": "string"
             },
             {
                 "name": "Morph_ID",
                 "required": true,
                 "dc:extent": "singlevalued",
-                "dc:description": "The involved morph. References MorphTable (morphs.csv)",
+                "dc:description": "The involved morph.",
                 "datatype": "string"
             },
             {
@@ -40,7 +40,7 @@
                 "required": true,
                 "dc:extent": "multivalued",
                 "separator": ",",
-                "dc:description": "The gloss the morph has in the stem. References GlossTable (glosses.csv)",
+                "dc:description": "The gloss the morph has in the stem.",
                 "datatype": "string"
             }
         ]

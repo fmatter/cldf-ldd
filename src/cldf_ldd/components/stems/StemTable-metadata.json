@@ -31,7 +31,7 @@
                 "name": "Lexeme_ID",
                 "required": false,
                 "dc:extent": "singlevalued",
-                "dc:description": "The lexeme this stem belongs to. References LexemeTable (lexemes.csv)",
+                "dc:description": "The lexeme this stem belongs to.",
                 "datatype": "string"
             },
             {
@@ -54,7 +54,7 @@
                 "required": true,
                 "dc:extent": "multivalued",
                 "separator": ",",
-                "dc:description": "The gloss the morph has in the wordform. References GlossTable (glosses.csv)",
+                "dc:description": "The gloss the morph has in the wordform.",
                 "datatype": "string"
             },
             {

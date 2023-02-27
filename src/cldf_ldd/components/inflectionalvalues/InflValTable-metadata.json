@@ -22,14 +22,14 @@
                 "name": "Category_ID",
                 "required": true,
                 "dc:extent": "singlevalued",
-                "dc:description": "The inflectional category the value belongs to. References InflCatTable (inflectionalcategories.csv)",
+                "dc:description": "The inflectional category the value belongs to.",
                 "datatype": "string"
             },
             {
                 "name": "Gloss_ID",
                 "required": true,
                 "dc:extent": "singlevalued",
-                "dc:description": "The gloss for the inflectional value. References GlossTable (glosses.csv)",
+                "dc:description": "The gloss for the inflectional value.",
                 "datatype": "string"
             }
         ]

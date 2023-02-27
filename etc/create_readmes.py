@@ -3,8 +3,16 @@ from pycldf.terms import Terms
 from csvw.metadata import Table
 from pathlib import Path
 from cldfspec.commands.component_readmes import colrow
-from pycldf.terms import Terms
+import yaml
+from importlib_resources import files  # pragma: no cover
 
+cldf_path = files("cldf_ldd") / "components"
+
+keys = yaml.load(open(cldf_path / "keys.yaml", "r"), Loader=yaml.SafeLoader)
+key_dict = {}
+for source, col1, target, col2 in keys:
+    key_dict.setdefault(source, {})
+    key_dict[source][col1] = target
 
 def table2markdown(table, name):
     res = []
@@ -18,15 +26,18 @@ def table2markdown(table, name):
         res.append(table.common_props["dc:description"] + "\n")
     res.append("Name/Property | Datatype | Cardinality | Description")
     res.append(" --- | --- | --- | --- ")
-    TERMS = Terms(Path("../cldf/cldf") / "terms.rdf")
+    terms = Terms(Path("../cldf/cldf") / "terms.rdf")
+    table_url = str(table.url)
     for col in table.tableSchema.columns:
-        print(col)
-        res.append(colrow(col, table.tableSchema.primaryKey, TERMS))
+        row = colrow(col, table.tableSchema.primaryKey, terms)
+        if table_url in key_dict and str(col) in key_dict[table_url]:
+            target = key_dict[table_url][str(col)]
+            row += f"\nReferences {target}."
+        res.append(row)
     return "\n".join(res)
 
 
 for p in Path("src/cldf_ldd/components").glob("*/*.json"):
-    print(p)
     readme = ""
     desc_path = p.parent.joinpath("description.md")
     if desc_path.is_file():

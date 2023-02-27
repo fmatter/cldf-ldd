@@ -55,7 +55,7 @@
                 "name": "Stem_ID",
                 "required": false,
                 "dc:extent": "singlevalued",
-                "dc:description": "The stem of which this wordform is an inflected form. References StemTable (stems.csv)",
+                "dc:description": "The stem of which this wordform is an inflected form.",
                 "datatype": "string"
             },
             {

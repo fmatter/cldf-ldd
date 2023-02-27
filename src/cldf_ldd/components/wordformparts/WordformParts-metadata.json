@@ -15,14 +15,14 @@
                 "name": "Wordform_ID",
                 "required": true,
                 "dc:extent": "singlevalued",
-                "dc:description": "The involved wordform. References WordformTable (wordforms.csv)",
+                "dc:description": "The involved wordform.",
                 "datatype": "string"
             },
             {
                 "name": "Morph_ID",
                 "required": false,
                 "dc:extent": "singlevalued",
-                "dc:description": "The involved morph. References MorphTable (morphs.csv)",
+                "dc:description": "The involved morph.",
                 "datatype": "string"
             },
             {
@@ -40,7 +40,7 @@
                 "required": false,
                 "dc:extent": "multivalued",
                 "separator": ",",
-                "dc:description": "The gloss the morph has in the wordform. References GlossTable (glosses.csv)",
+                "dc:description": "The gloss the morph has in the wordform.",
                 "datatype": "string"
             }
         ]
