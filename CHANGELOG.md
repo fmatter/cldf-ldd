@@ -8,8 +8,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [0.0.3] - 2023-02-27
 
-## [0.0.2] - 2023-02-19
-
 ### Changed
 * wordformparts don't need to have a gloss (infixation)
 * `Order` for inflectional categories is now a list and called `Value_Order`
@@ -21,6 +19,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Removed
 * old `FormTable`
+
+## [0.0.2] - 2023-02-19
 
 ### Fixed
 * include data in MANIFEST.in
