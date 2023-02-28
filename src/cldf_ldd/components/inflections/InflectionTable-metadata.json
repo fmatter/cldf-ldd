@@ -12,13 +12,6 @@
                 }
             },
             {
-                "name": "Form_ID",
-                "required": false,
-                "dc:extent": "singlevalued",
-                "dc:description": "The form this inflection describes.",
-                "datatype": "string"
-            },
-            {
                 "name": "Stem_ID",
                 "required": true,
                 "dc:extent": "singlevalued",
@@ -38,6 +31,13 @@
                 "dc:extent": "multivalued",
                 "separator": ",",
                 "dc:description": "The part of the wordform expressing this value.",
+                "datatype": "string"
+            },
+            {
+                "name": "Form_ID",
+                "required": false,
+                "dc:extent": "singlevalued",
+                "dc:description": "The multi-word form this inflection references.",
                 "datatype": "string"
             }
         ]
