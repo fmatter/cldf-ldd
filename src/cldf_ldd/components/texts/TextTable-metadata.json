@@ -50,7 +50,8 @@
             {
                 "name": "Metadata",
                 "required": false,
-                "datatype": "json"
+                "datatype": "json",
+                "dc:extent": "singlevalued"
             }
         ]
     }

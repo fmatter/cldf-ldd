@@ -20,4 +20,4 @@ Name/Property | Datatype | Cardinality | Description
 [Comment](http://cldf.clld.org/v1.0/terms.rdf#comment) | `string` | singlevalued | <div> <p> A human-readable comment on a resource, providing additional context. </p> </div> 
 [Source](http://cldf.clld.org/v1.0/terms.rdf#source) | list of `string` (separated by `;`) | multivalued | <div> <p>List of source specifications, of the form &lt;source_ID&gt;[], e.g. http://glottolog.org/resource/reference/id/318814[34], or meier2015[3-12] where meier2015 is a citation key in the accompanying BibTeX file.</p> </div> 
 `Type` | `string` | singlevalued | 
-`Metadata` | `json` | unspecified | 
+`Metadata` | `json` | singlevalued | 

@@ -13,4 +13,4 @@ Name/Property | Datatype | Cardinality | Description
 `Source_ID` | `string` | singlevalued | The stem to which the derivational process applies.<br>References stems.csv.
 `Root_ID` | `string` | singlevalued | The root to which the derivational process applies.<br>References morphs.csv.
 `Stempart_IDs` | list of `string` (separated by `,`) | multivalued | Specifies one or multiple morphs in the stem marking the derivation.<br>References stemparts.csv.
-[Comment](http://cldf.clld.org/v1.0/terms.rdf#comment) | `string` | unspecified | <div> <p> A human-readable comment on a resource, providing additional context. </p> </div> 
+[Comment](http://cldf.clld.org/v1.0/terms.rdf#comment) | `string` | singlevalued | <div> <p> A human-readable comment on a resource, providing additional context. </p> </div> 

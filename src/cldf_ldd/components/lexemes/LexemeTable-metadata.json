@@ -38,7 +38,8 @@
                 "name": "Part_Of_Speech",
                 "required": false,
                 "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#partOfSpeech",
-                "datatype": "string"
+                "datatype": "string",
+                "dc:extent": "singlevalued"
             },
             {
                 "name": "Parameter_ID",
@@ -57,7 +58,8 @@
                 "name": "Paradigm_View",
                 "dc:description": "A dict with 'x' and 'y' keys containing lists of derivational category IDs.",
                 "required": false,
-                "datatype": "json"
+                "datatype": "json",
+                "dc:extent": "singlevalued"
             },
             {
                 "name": "Source",
