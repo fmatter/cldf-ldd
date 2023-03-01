@@ -6,8 +6,8 @@ authors:
   - family-names: Matter
     given-names: Florian
     orcid: "https://orcid.org/0000-0002-2545-5154"
-date-released: 2023-02-27
-version: "0.0.3"
+date-released: 2023-03-01
+version: "0.0.4"
 repository-code: "https://github.com/fmatter/cldf-ldd"
 keywords:
   - cldf
