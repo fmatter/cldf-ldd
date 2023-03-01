@@ -16,6 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * adding column `Morpho_Segments` to CLDF-native `FormTable`
 * foreign `Lexeme_ID` key for `StemTable`
 * lexeme's `Paradigm_View` as `json` column
+* texts have a `Name`, not a `Title`
 
 ### Removed
 * old `FormTable`
