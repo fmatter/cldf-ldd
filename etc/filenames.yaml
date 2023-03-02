@@ -16,3 +16,4 @@ glosses: GlossTable
 partsofspeech: POSTable
 texts: TextTable
 exampleparts: ExampleParts
+phonemes: PhonemeTable
