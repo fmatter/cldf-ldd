@@ -7,7 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
-* PhonemeTable
+* `PhonemeTable`
+* `Segments` column for `StemTable` and `WordformTable` 
 
 ## [0.0.4] - 2023-03-01
 

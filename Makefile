@@ -1,7 +1,10 @@
 code:
 	python3 var/gen_code.py
 	black src
-	
+
+json:
+	python3 etc/format_json.py
+		
 files:
 	python3 etc/check_components.py
 	

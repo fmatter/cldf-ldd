@@ -50,6 +50,14 @@
                 "separator": " "
             },
             {
+                "name": "Segments",
+                "required": false,
+                "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#segments",
+                "dc:extent": "multivalued",
+                "datatype": "string",
+                "separator": " "
+            },
+            {
                 "name": "Gloss_ID",
                 "required": true,
                 "dc:extent": "multivalued",
