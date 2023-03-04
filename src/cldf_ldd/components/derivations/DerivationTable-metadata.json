@@ -41,7 +41,7 @@
             },
             {
                 "name": "Stempart_IDs",
-                "required": true,
+                "required": false,
                 "dc:extent": "multivalued",
                 "separator": ",",
                 "dc:description": "Specifies one or multiple morphs in the stem marking the derivation.",

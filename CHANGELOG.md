@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 * `PhonemeTable`
 * `Segments` column for `StemTable` and `WordformTable` 
+* `Part_Of_Speech` column for `WordformTable`
+
+### Changed
+* of course you don't need a specific morph in the target stem
 
 ## [0.0.4] - 2023-03-01
 

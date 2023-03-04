@@ -4,7 +4,10 @@ code:
 
 json:
 	python3 etc/format_json.py
-		
+
+keys:
+	python3 etc/gen_keys.py
+
 files:
 	python3 etc/check_components.py
 	
