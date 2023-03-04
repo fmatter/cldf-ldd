@@ -12,8 +12,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * `Part_Of_Speech` column for `WordformTable`
 
 ### Changed
-* of course derivations don't need to reference a specific morph in the target stem
+* derivations don't need to reference a specific morph in the target stem
 * multi-valued index for stems in wordforms (morphologically complex stems, potentially bipartite)
+* make multi-valued `Parameter_ID` (i.e., polysemy) the default
 
 ### Removed
 * `Gloss_ID` column of `StemTable`

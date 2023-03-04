@@ -37,9 +37,10 @@
             {
                 "name": "Parameter_ID",
                 "required": true,
-                "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#parameterReference",
-                "dc:description": "A reference to the meaning denoted by the stem",
-                "datatype": "string"
+                "dc:description": "A reference to the meaning denoted by the stem.",
+                "datatype": "string",
+                "dc:extent": "multivalued",
+                "separator": "; "
             },
             {
                 "name": "Morpho_Segments",
