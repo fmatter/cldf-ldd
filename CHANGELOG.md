@@ -15,6 +15,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * of course derivations don't need to reference a specific morph in the target stem
 * multi-valued index for stems in wordforms (morphologically complex stems, potentially bipartite)
 
+### Removed
+* `Gloss_ID` column of `StemTable`
+
 ## [0.0.4] - 2023-03-01
 
 ### Changed
