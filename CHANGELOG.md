@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * `PhonemeTable`
 * `Segments` column for `StemTable` and `WordformTable` 
 * `Part_Of_Speech` column for `WordformTable`
+* foreign key: `Stem_ID` in `WordformStems`
 
 ### Changed
 * derivations don't need to reference a specific morph in the target stem

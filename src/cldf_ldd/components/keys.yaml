@@ -118,3 +118,7 @@
   - Part_Of_Speech
   - partsofspeech.csv
   - ID
+- - wordformstems.csv
+  - Stem_ID
+  - stems.csv
+  - ID
