@@ -12,7 +12,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * `Part_Of_Speech` column for `WordformTable`
 
 ### Changed
-* of course you don't need a specific morph in the target stem
+* of course derivations don't need to reference a specific morph in the target stem
+* multi-valued index for stems in wordforms (morphologically complex stems, potentially bipartite)
 
 ## [0.0.4] - 2023-03-01
 

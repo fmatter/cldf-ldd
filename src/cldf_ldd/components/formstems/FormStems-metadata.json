@@ -29,10 +29,10 @@
                 "name": "Index",
                 "required": true,
                 "dc:description": "Specifies the position(s) of an stem in a wordform.",
-                "dc:extent": "singlevalued",
+                "dc:extent": "multivalued",
+                "separator": ",",
                 "datatype": {
-                    "base": "string",
-                    "format": "\\d+(:\\d+)?"
+                    "base": "integer"
                 }
             }
         ]
