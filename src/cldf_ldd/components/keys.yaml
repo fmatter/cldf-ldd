@@ -122,3 +122,7 @@
   - Stem_ID
   - stems.csv
   - ID
+- - formparts.csv
+  - Wordform_ID
+  - wordforms.csv
+  - ID
