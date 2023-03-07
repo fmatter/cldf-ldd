@@ -17,3 +17,4 @@ partsofspeech: POSTable
 texts: TextTable
 exampleparts: ExampleParts
 phonemes: PhonemeTable
+speakers: SpeakerTable
