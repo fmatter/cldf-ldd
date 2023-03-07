@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+* `Speaker_ID` as a foreign key in `ExampleTable`
+
 ### Fixed
 * unavailable `SpeakerTable`
 * speakers have names (although they may be abbreviations)

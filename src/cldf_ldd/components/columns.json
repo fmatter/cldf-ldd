@@ -11,6 +11,12 @@
             "required": false,
             "dc:description": "The positions of this record in the text.",
             "datatype": "integer"
+        },
+        {
+            "name": "Speaker_ID",
+            "required": false,
+            "dc:description": "The speaker who uttered this record.",
+            "datatype": "string"
         }
     ],
     "FormTable": [
