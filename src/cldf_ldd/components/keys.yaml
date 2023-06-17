@@ -130,3 +130,7 @@
   - Speaker_ID
   - speakers.csv
   - ID
+- - wordformstems.csv
+  - Wordform_ID
+  - wordforms.csv
+  - ID
