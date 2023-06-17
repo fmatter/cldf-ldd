@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 * `Speaker_ID` as a foreign key in `ExampleTable`
+* `Morph(emes)` and `Stems` can now have a `Part_Of_Speech`
 
 ### Fixed
 * unavailable `SpeakerTable`

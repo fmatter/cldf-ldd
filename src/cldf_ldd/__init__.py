@@ -2,8 +2,10 @@
 import functools
 import logging
 import colorlog
-from cldf_ldd.cldf import columns, keys
+from cldf_ldd.cldf import columns
+from cldf_ldd.cldf import keys
 from cldf_ldd.components import *
+
 
 try:
     from importlib.resources import files  # pragma: no cover

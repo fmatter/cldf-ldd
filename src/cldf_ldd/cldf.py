@@ -1,6 +1,7 @@
-from clldutils import jsonlib
 import yaml
+from clldutils import jsonlib
 from cldf_ldd.components import tables as components
+
 
 try:
     from importlib.resources import files  # pragma: no cover

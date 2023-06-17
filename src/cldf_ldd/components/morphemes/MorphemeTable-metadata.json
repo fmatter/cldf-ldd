@@ -55,6 +55,13 @@
                 "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#source",
                 "datatype": "string",
                 "separator": "; "
+            },
+            {
+                "name": "Part_Of_Speech",
+                "required": false,
+                "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#partOfSpeech",
+                "datatype": "string",
+                "dc:extent": "singlevalued"
             }
         ]
     }
