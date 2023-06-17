@@ -34,6 +34,14 @@
   - Text_ID
   - texts.csv
   - ID
+- - ExampleTable
+  - Speaker_ID
+  - speakers.csv
+  - ID
+- - formparts.csv
+  - Wordform_ID
+  - wordforms.csv
+  - ID
 - - inflectionalvalues.csv
   - Category_ID
   - inflectionalcategories.csv
@@ -121,14 +129,6 @@
 - - wordformstems.csv
   - Stem_ID
   - stems.csv
-  - ID
-- - formparts.csv
-  - Wordform_ID
-  - wordforms.csv
-  - ID
-- - ExampleTable
-  - Speaker_ID
-  - speakers.csv
   - ID
 - - wordformstems.csv
   - Wordform_ID
