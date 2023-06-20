@@ -134,3 +134,15 @@
   - Wordform_ID
   - wordforms.csv
   - ID
+- - morphs.csv
+  - Part_Of_Speech
+  - partsofspeech.csv
+  - ID
+- - morphemes.csv
+  - Part_Of_Speech
+  - partsofspeech.csv
+  - ID
+- - stems.csv
+  - Part_Of_Speech
+  - partsofspeech.csv
+  - ID

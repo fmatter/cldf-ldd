@@ -33,3 +33,6 @@
 "wordforms","Part_Of_Speech","partsofspeech",
 "wordformstems","Stem_ID","stems",
 "wordformstems","Wordform_ID","wordforms",
+"morphs","Part_Of_Speech","partsofspeech",
+"morphemes","Part_Of_Speech","partsofspeech",
+"stems","Part_Of_Speech","partsofspeech",
