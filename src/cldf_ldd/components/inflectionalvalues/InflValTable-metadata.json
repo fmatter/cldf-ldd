@@ -27,7 +27,7 @@
             },
             {
                 "name": "Gloss_ID",
-                "required": true,
+                "required": false,
                 "dc:extent": "singlevalued",
                 "dc:description": "The gloss for the inflectional value.",
                 "datatype": "string"

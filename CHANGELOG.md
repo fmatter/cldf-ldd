@@ -15,6 +15,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * speakers have names (although they may be abbreviations)
 * missing foreign key from wordformstems to wordforms
 
+### Changed
+* `Gloss_ID` is optional for inflectional values
+
 ## [0.0.5] - 2023-03-04
 
 ### Added
