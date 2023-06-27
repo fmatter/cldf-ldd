@@ -12,8 +12,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 * unavailable `SpeakerTable`
-* speakers have names (although they may be abbreviations)
+* speakers have `Name`s, not `Abbreviation`s (although they may be abbreviations)
 * missing foreign key from wordformstems to wordforms
+* missing foreign key from formparts to wordforms
 
 ### Changed
 * `Gloss_ID` is optional for inflectional values
