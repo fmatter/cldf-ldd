@@ -18,7 +18,7 @@ log = logging.getLogger(__name__)
 
 __author__ = "Florian Matter"
 __email__ = "fmatter@mailbox.org"
-__version__ = "0.0.6.dev"
+__version__ = "0.0.6"
 
 
 def valid_parts(name, dataset, table, column, row):
