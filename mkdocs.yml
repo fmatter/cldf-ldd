@@ -1,0 +1,29 @@
+site_name: cldf-ldd
+site_url: https://fl.mt/cldf-ldd
+theme:
+  name: material
+  features:
+    - toc.integrate
+    # - navigation.expand
+    - content.code.copy
+  palette:
+    scheme: slate
+    primary: orange
+markdown_extensions:
+  - markdown_include.include:
+      base_path: docs
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+extra:
+  version:
+    provider: mike
+plugins:
+  - search
+  - table-reader
+  - awesome-pages
+repo_url: https://github.com/fmatter/cldf-ldd
