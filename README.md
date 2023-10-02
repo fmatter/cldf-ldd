@@ -1,4 +1,4 @@
-# [cldf-ldd](https://github.com/fmatter/cldf-ldd)
+# [cldf-ldd](https://fl.mt/cldf-ldd)
 
 CLDF schemata for language description and documentation.
 
