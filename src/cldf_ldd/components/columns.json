@@ -7,9 +7,15 @@
             "datatype": "string"
         },
         {
-            "name": "Record_Number",
+            "name": "Sentence_Number",
             "required": false,
             "dc:description": "The positions of this record in the text.",
+            "datatype": "integer"
+        },
+        {
+            "name": "Phrase_Number",
+            "required": false,
+            "dc:description": "The number of the phrase in this record.",
             "datatype": "integer"
         },
         {
