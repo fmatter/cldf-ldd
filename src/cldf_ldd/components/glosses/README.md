@@ -6,6 +6,6 @@ In the context of language description, it is important to keep them distinct fr
 
 Name/Property | Datatype | Cardinality | Description
  --- | --- | --- | --- 
-[ID](http://cldf.clld.org/v1.0/terms.rdf#id) | `string` | singlevalued | <div> <p>A unique identifier for a row in a table.</p> <p> To allow usage of identifiers as path components of URLs IDs must only contain alphanumeric characters, underscore and hyphen. </p> </div> 
-[Name](http://cldf.clld.org/v1.0/terms.rdf#name) | `string` | singlevalued | <div> <p>A title, name or label for an entity.</p> </div> 
-[Comment](http://cldf.clld.org/v1.0/terms.rdf#comment) | `string` | singlevalued | <div> <p> A human-readable comment on a resource, providing additional context. </p> </div> 
+[ID](http://cldf.clld.org/v1.0/terms.rdf#id) | `string` | <div>             <p>A unique identifier for a row in a table.</p>             <p>                 To allow usage of identifiers as path components of URLs                 IDs must only contain alphanumeric characters, underscore and hyphen.             </p>         </div>         <br>Primary key
+[Name](http://cldf.clld.org/v1.0/terms.rdf#name) | `string` | <div>             <p>A title, name or label for an entity.</p>         </div>         
+[Comment](http://cldf.clld.org/v1.0/terms.rdf#comment) | `string` | <div>             <p>                 A human-readable comment on a resource, providing additional context.             </p>         </div>         

@@ -2,9 +2,10 @@ import json
 from pycldf.terms import Terms
 from csvw.metadata import Table
 from pathlib import Path
-from cldfspec.commands.component_readmes import colrow
 import yaml
 from importlib_resources import files  # pragma: no cover
+from clldutils.misc import slug
+
 
 cldf_path = files("cldf_ldd") / "components"
 
@@ -13,6 +14,46 @@ key_dict = {}
 for source, col1, target, col2 in keys:
     key_dict.setdefault(source, {})
     key_dict[source][col1] = target
+
+
+def to_camel_case(snake_str):
+    return "".join(x.capitalize() for x in snake_str.lower().split("_"))
+
+
+def to_lower_camel_case(snake_str):
+    # We capitalize the first letter of each component except the first one
+    # with the 'capitalize' method and join them together.
+    camel_string = to_camel_case(snake_str)
+    return snake_str[0].lower() + camel_string[1:]
+
+def colrow(col, fks, pk, terms):
+    dt = '`{}`'.format(col.datatype.base if col.datatype else 'string')
+    if col.separator:
+        dt = 'list of {} (separated by `{}`)'.format(dt, col.separator)
+    desc = col.common_props.get('dc:description', '').replace('\n', ' ')
+    if not desc:
+        term = terms.get(to_lower_camel_case(col.name))
+        if term:
+            desc = term.comment().replace("\n", " ")
+    if col.name in pk:
+        desc = (desc + '<br>') if desc else desc
+        desc += 'Primary key'
+    # else:
+    #     input(col)
+    #     input(fks)
+    # elif col.propertyUrl \
+    #         and col.propertyUrl.uri == "http://cldf.clld.org/v1.0/terms.rdf#source" \
+    #         and 'dc:source' in ds.properties:
+    #     desc = (desc + '<br>') if desc else desc
+    #     desc += 'References [{}::BibTeX-key]({}{})'.format(
+    #         ds.properties['dc:source'], rel_path, ds.properties['dc:source'])
+
+    return ' | '.join([
+        '[{}]({})'.format(col.name, col.propertyUrl)
+        if col.propertyUrl else '`{}`'.format(col.name),
+        dt,
+        desc,
+    ])
 
 
 def table2markdown(table, name):
@@ -30,7 +71,7 @@ def table2markdown(table, name):
     terms = Terms(Path("../cldf/cldf") / "terms.rdf")
     table_url = str(table.url)
     for col in table.tableSchema.columns:
-        row = colrow(col, table.tableSchema.primaryKey, terms)
+        row = colrow(col, key_dict.get(str(table.url), {}), ["ID"], terms)
         if table_url in key_dict and str(col) in key_dict[table_url]:
             target = key_dict[table_url][str(col)]
             if target.lower() == target:

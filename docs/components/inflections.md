@@ -11,8 +11,8 @@ The multivalued nature of `Wordformpart_ID` allows multiple inflectional values 
 
 Name/Property | Datatype | Cardinality | Description
  --- | --- | --- | --- 
-[ID](http://cldf.clld.org/v1.0/terms.rdf#id) | `string` | singlevalued | <div> <p>A unique identifier for a row in a table.</p> <p> To allow usage of identifiers as path components of URLs IDs must only contain alphanumeric characters, underscore and hyphen. </p> </div> 
-`Stem_ID` | `string` | singlevalued | The stem this wordform is an inflected form of.<br>References stems.csv.
-`Value_ID` | `string` | singlevalued | The inflectional value being expressed.<br>References inflectionalvalues.csv.
-`Wordformpart_ID` | list of `string` (separated by `,`) | multivalued | The part of the wordform expressing this value.<br>References wordformparts.csv.
-`Form_ID` | `string` | singlevalued | The multi-word form this inflection references.<br>References forms.csv.
+[ID](http://cldf.clld.org/v1.0/terms.rdf#id) | `string` | <div>             <p>A unique identifier for a row in a table.</p>             <p>                 To allow usage of identifiers as path components of URLs                 IDs must only contain alphanumeric characters, underscore and hyphen.             </p>         </div>         <br>Primary key
+`Stem_ID` | `string` | The stem this wordform is an inflected form of.<br>References [stems.csv](stems.md).
+`Value_ID` | `string` | The inflectional value being expressed.<br>References [inflectionalvalues.csv](inflectionalvalues.md).
+`Wordformpart_ID` | list of `string` (separated by `,`) | The part of the wordform expressing this value.<br>References [wordformparts.csv](wordformparts.md).
+`Form_ID` | `string` | The multi-word form this inflection references.<br>References forms.csv.

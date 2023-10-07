@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 * `Phrase_Number` for examples
 
-### Added
+### Changed
 * `Sentence_Number` instead of `Record_Number`
 
 ## [0.0.6] - 2023-06-27

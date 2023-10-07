@@ -10,8 +10,8 @@ In that case, they contain no `Morph_ID` and no `Index`.
 
 Name/Property | Datatype | Cardinality | Description
  --- | --- | --- | --- 
-[ID](http://cldf.clld.org/v1.0/terms.rdf#id) | `string` | singlevalued | <div> <p>A unique identifier for a row in a table.</p> <p> To allow usage of identifiers as path components of URLs IDs must only contain alphanumeric characters, underscore and hyphen. </p> </div> 
-`Wordform_ID` | `string` | singlevalued | The involved wordform.<br>References wordforms.csv.
-`Morph_ID` | `string` | singlevalued | The involved morph.<br>References morphs.csv.
-`Index` | `string` | singlevalued | Specifies the position of a morph in a wordform.
-`Gloss_ID` | list of `string` (separated by `,`) | multivalued | The gloss the morph has in the wordform.<br>References glosses.csv.
+[ID](http://cldf.clld.org/v1.0/terms.rdf#id) | `string` | <div>             <p>A unique identifier for a row in a table.</p>             <p>                 To allow usage of identifiers as path components of URLs                 IDs must only contain alphanumeric characters, underscore and hyphen.             </p>         </div>         <br>Primary key
+`Wordform_ID` | `string` | The involved wordform.<br>References wordforms.csv.
+`Morph_ID` | `string` | The involved morph.<br>References morphs.csv.
+`Index` | `string` | Specifies the position of a morph in a wordform.
+`Gloss_ID` | list of `string` (separated by `,`) | The gloss the morph has in the wordform.<br>References glosses.csv.
