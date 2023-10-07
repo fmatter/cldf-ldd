@@ -2,13 +2,23 @@ site_name: cldf-ldd
 site_url: https://fl.mt/cldf-ldd
 theme:
   name: material
-  features:
-    - toc.integrate
-    # - navigation.expand
-    - content.code.copy
-  palette:
-    scheme: slate
-    primary: orange
+  palette: 
+
+    # Palette toggle for light mode
+    - scheme: default
+      accent: deep orange
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: deep purple
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+extra_css:
+  - assets/colors.css
 markdown_extensions:
   - markdown_include.include:
       base_path: docs
