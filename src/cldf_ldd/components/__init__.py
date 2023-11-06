@@ -26,6 +26,7 @@ __all__ = [
     "ExampleParts",
     "PhonemeTable",
     "SpeakerTable",
+    "ConstructionTable",
 ]
 
 cldf_path = files("cldf_ldd") / "components"
@@ -53,6 +54,9 @@ TextTable = jsonlib.load(cldf_path / "texts/TextTable-metadata.json")
 ExampleParts = jsonlib.load(cldf_path / "exampleparts/ExampleParts-metadata.json")
 PhonemeTable = jsonlib.load(cldf_path / "phonemes/PhonemeTable-metadata.json")
 SpeakerTable = jsonlib.load(cldf_path / "speakers/SpeakerTable-metadata.json")
+ConstructionTable = jsonlib.load(
+    cldf_path / "constructions/ConstructionTable-metadata.json"
+)
 
 tables = [
     WordformTable,
@@ -75,4 +79,5 @@ tables = [
     ExampleParts,
     PhonemeTable,
     SpeakerTable,
+    ConstructionTable,
 ]

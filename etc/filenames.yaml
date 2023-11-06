@@ -18,3 +18,4 @@ texts: TextTable
 exampleparts: ExampleParts
 phonemes: PhonemeTable
 speakers: SpeakerTable
+constructions: ConstructionTable

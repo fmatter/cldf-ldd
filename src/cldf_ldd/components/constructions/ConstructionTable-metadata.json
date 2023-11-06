@@ -1,5 +1,5 @@
 {
-    "url": "wordforms.csv",
+    "url": "constructions.csv",
     "tableSchema": {
         "columns": [
             {
@@ -36,7 +36,7 @@
             },
             {
                 "name": "Parameter_ID",
-                "required": true,
+                "required": false,
                 "dc:description": "A reference to the meaning denoted by the construction",
                 "datatype": "string",
                 "dc:extent": "multivalued",
