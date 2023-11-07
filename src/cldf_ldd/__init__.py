@@ -53,6 +53,9 @@ def add_keys(ds):
     for src, key1, goal, key2 in keys:
         if src in cldf_tables:
             if goal in cldf_tables:
+                log.debug(
+                    f"Adding foreign key {key1} to {src} ({goal}:{key2})"
+                )
                 ds.add_foreign_key(src, key1, goal, key2)
             else:
                 log.debug(
