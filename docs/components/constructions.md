@@ -5,7 +5,6 @@ hide:
 # Constructions
 Here, constructions are understood as schemata with slots for lexical and grammatical material.
 
-
 ## ConstructionTable: `constructions.csv`
 
 Name/Property | Datatype | Cardinality | Description
