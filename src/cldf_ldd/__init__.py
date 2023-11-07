@@ -1,11 +1,9 @@
 """Top-level package for cldf-ldd."""
 import functools
 import logging
-import colorlog
-from cldf_ldd.cldf import columns
-from cldf_ldd.cldf import keys
-from cldf_ldd.components import *
 
+from cldf_ldd.cldf import columns, keys
+from cldf_ldd.components import *
 
 try:
     from importlib.resources import files  # pragma: no cover
@@ -14,11 +12,6 @@ except ImportError:  # pragma: no cover
 
 
 log = logging.getLogger(__name__)
-
-
-__author__ = "Florian Matter"
-__email__ = "fmatter@mailbox.org"
-__version__ = "0.0.7.dev"
 
 
 def valid_parts(name, dataset, table, column, row):
@@ -53,9 +46,7 @@ def add_keys(ds):
     for src, key1, goal, key2 in keys:
         if src in cldf_tables:
             if goal in cldf_tables:
-                log.debug(
-                    f"Adding foreign key {key1} to {src} ({goal}:{key2})"
-                )
+                log.debug(f"Adding foreign key {key1} to {src} ({goal}:{key2})")
                 ds.add_foreign_key(src, key1, goal, key2)
             else:
                 log.debug(
