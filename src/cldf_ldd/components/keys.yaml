@@ -1,3 +1,7 @@
+- - ExampleTable
+  - Speaker_ID
+  - speakers.csv
+  - ID
 - - derivations.csv
   - Process_ID
   - derivationalprocesses.csv
@@ -34,10 +38,6 @@
   - Text_ID
   - texts.csv
   - ID
-- - ExampleTable
-  - Speaker_ID
-  - speakers.csv
-  - ID
 - - formparts.csv
   - Wordform_ID
   - wordforms.csv
@@ -71,6 +71,10 @@
   - ParameterTable
   - ID
 - - morphemes.csv
+  - Part_Of_Speech
+  - partsofspeech.csv
+  - ID
+- - morphemes.csv
   - Parameter_ID
   - ParameterTable
   - ID
@@ -81,6 +85,10 @@
 - - morphs.csv
   - Parameter_ID
   - ParameterTable
+  - ID
+- - morphs.csv
+  - Part_Of_Speech
+  - partsofspeech.csv
   - ID
 - - stemparts.csv
   - Gloss_ID
@@ -99,8 +107,16 @@
   - lexemes.csv
   - ID
 - - stems.csv
+  - Part_Of_Speech
+  - partsofspeech.csv
+  - ID
+- - stems.csv
   - Parameter_ID
   - ParameterTable
+  - ID
+- - wordformparts.csv
+  - Wordform_ID
+  - wordforms.csv
   - ID
 - - wordformparts.csv
   - Gloss_ID
@@ -110,10 +126,6 @@
   - Morph_ID
   - morphs.csv
   - ID
-- - wordformparts.csv
-  - Wordform_ID
-  - wordforms.csv
-  - ID
 - - wordforms.csv
   - Parameter_ID
   - ParameterTable
@@ -133,16 +145,4 @@
 - - wordformstems.csv
   - Wordform_ID
   - wordforms.csv
-  - ID
-- - morphs.csv
-  - Part_Of_Speech
-  - partsofspeech.csv
-  - ID
-- - morphemes.csv
-  - Part_Of_Speech
-  - partsofspeech.csv
-  - ID
-- - stems.csv
-  - Part_Of_Speech
-  - partsofspeech.csv
   - ID
