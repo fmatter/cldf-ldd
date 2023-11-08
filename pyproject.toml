@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "cldf-ldd"
-version = "0.0.8.dev"
+version = "0.0.8"
 license = "MIT"
 homepage = "https://fl.mt/cldf-ldd"
 repository = "https://github.com/fmatter/cldf-ldd"
