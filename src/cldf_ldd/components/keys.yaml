@@ -78,6 +78,14 @@
   - Parameter_ID
   - ParameterTable
   - ID
+- - morphemes.csv
+  - Language_ID
+  - LanguageTable
+  - ID
+- - morphs.csv
+  - Language_ID
+  - LanguageTable
+  - ID
 - - morphs.csv
   - Morpheme_ID
   - morphemes.csv
@@ -103,12 +111,16 @@
   - stems.csv
   - ID
 - - stems.csv
-  - Lexeme_ID
-  - lexemes.csv
+  - Language_ID
+  - LanguageTable
   - ID
 - - stems.csv
   - Part_Of_Speech
   - partsofspeech.csv
+  - ID
+- - stems.csv
+  - Lexeme_ID
+  - lexemes.csv
   - ID
 - - stems.csv
   - Parameter_ID
@@ -137,6 +149,10 @@
 - - wordforms.csv
   - Part_Of_Speech
   - partsofspeech.csv
+  - ID
+- - wordforms.csv
+  - Language_ID
+  - LanguageTable
   - ID
 - - wordformstems.csv
   - Stem_ID

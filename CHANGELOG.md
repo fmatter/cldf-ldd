@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+* `Language_ID` foreign keys
+
 ## [0.0.7] - 2023-11-06
 
 ### Added
