@@ -42,6 +42,10 @@
   - Wordform_ID
   - wordforms.csv
   - ID
+- - formparts.csv
+  - Form_ID
+  - forms.csv
+  - ID
 - - inflectionalvalues.csv
   - Category_ID
   - inflectionalcategories.csv
@@ -71,16 +75,16 @@
   - ParameterTable
   - ID
 - - morphemes.csv
-  - Part_Of_Speech
-  - partsofspeech.csv
+  - Language_ID
+  - LanguageTable
   - ID
 - - morphemes.csv
   - Parameter_ID
   - ParameterTable
   - ID
 - - morphemes.csv
-  - Language_ID
-  - LanguageTable
+  - Part_Of_Speech
+  - partsofspeech.csv
   - ID
 - - morphs.csv
   - Language_ID
@@ -111,20 +115,20 @@
   - stems.csv
   - ID
 - - stems.csv
-  - Language_ID
-  - LanguageTable
-  - ID
-- - stems.csv
-  - Part_Of_Speech
-  - partsofspeech.csv
+  - Parameter_ID
+  - ParameterTable
   - ID
 - - stems.csv
   - Lexeme_ID
   - lexemes.csv
   - ID
 - - stems.csv
-  - Parameter_ID
-  - ParameterTable
+  - Language_ID
+  - LanguageTable
+  - ID
+- - stems.csv
+  - Part_Of_Speech
+  - partsofspeech.csv
   - ID
 - - wordformparts.csv
   - Wordform_ID
