@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+* `Morphs` have `Form`s, not `Name`s
+
 ## [0.0.9] - 2024-08-01
 
 ### Fixed
